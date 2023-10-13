@@ -87,6 +87,119 @@ legend {
   display: block;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.required-label::after {
+  content: "*";
+  color: red;
+}
+
+.form {
+  position: absolute;
+  margin: auto;
+  padding: 43px 63px 73px 63px;
+  max-width: 1170px;
+  max-height: 700px;
+  box-shadow: 0 10px 100px rgba(0, 0, 0, 0.24);
+  border-radius: 30px;
+  background-color: #6C6C72;
+}
+
+.head__form {
+  margin-bottom: 25px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  line-height: 47px;
+  color: #fff;
+}
+
+.form__box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 108px;
+}
+
+.input__form {
+  margin-bottom: 11px;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  line-height: 37.5px;
+  background-color: #fff;
+}
+
+.input__form {
+  padding-left: 37px;
+  width: 468px;
+  height: 80px;
+  border-radius: 10px;
+  border-color: #6C6C72;
+}
+
+.phone__input {
+  background-color: #fff;
+}
+
+.message-box {
+  max-height: 296px;
+  height: 100%;
+}
+
+textarea {
+  resize: none;
+  width: 422px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  line-height: 37.5px;
+  margin-bottom: 49px;
+  padding: 21px 23px;
+  max-height: 296px;
+  height: 100%;
+  background-color: #fff;
+}
+
+.form__send {
+  margin-top: 140px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  color: #fff;
+  background-color: #5956E9;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  position: absolute;
+  border-radius: 999px;
+  top: 15%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.close {
+  position: absolute;
+  top: -10px;
+  right: 5px;
+  font-size: 50px;
+  cursor: pointer;
+  color: #000;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
 /* Variables */
 /* Adaptive fonts */
 /* Main tags */
@@ -943,80 +1056,4 @@ footer .footer__content .footer__category .footer__column-company .footer-column
     align-self: center;
     width: 800px;
   }
-}
-/* @media (max-width: 1486px) {
-$main-content-margin: 0px 69.75px;
-$content-margin: 0px 69.75px 60px;
-$site-width: 30%;
-	.flex-title {
-		display: flex;
-		align-items: center;
-
-		justify-content: space-around;
-		width: 60%;
-	}
-	.content {
-		margin: $content-margin;
-	}
-	.main {
-		&__content {
-			margin: $main-content-margin;
-		}
-	}
-	.popular-destinations {
-		&__title {
-			padding-bottom: 22px;
-		}
-		&__category {
-			flex-wrap: wrap;
-			align-items: center;
-			justify-content: center;
-			align-self: center;
-			width: 60%;
-		}
-	}
-	.hotels-and-restaurants {
-		&__category {
-			flex-wrap: wrap;
-			align-items: center;
-			justify-content: center;
-			width: 670px;
-		}
-	}
-} */
-/* @media (max-width: 1421px) {
-	.travel-tips-and-advice {
-		&__title {
-			padding-bottom: 32px;
-		}
-		.travel-tips-and-advice__category {
-			display: flex;
-			flex-wrap: wrap;
-			align-items: flex-start;
-			gap: 20px;
-
-			justify-content: center;
-		}
-	}
-}
-
-@media (max-width: 1302px) {
-	.row-search__form {
-		flex-direction: column;
-	}
-	.about-us {
-		&__category {
-			flex-wrap: wrap;
-			justify-content: center;
-			align-self: center;
-			.about-us__column {
-				h2 {
-					align-self: center;
-				}
-				button {
-					align-self: center;
-				}
-			}
-		}
-	}
-} *//*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
