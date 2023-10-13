@@ -1,0 +1,69 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    padding: 20px 15px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+caption {
+    position: relative;
+    top: 7px;
+    border: 7px solid rgb(186, 196, 249);
+    background-color: rgb(186, 196, 249);
+}
+
+.tables {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 30px;
+}
+
+table {
+    border: 7px solid #a3c4ee;
+    border-radius: 7px;
+}
+
+table tr td {
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid #000000;
+}
+
+table tr:hover {
+    background-color: rgb(32, 101, 161);
+}
+
+table tr th {
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(112, 177, 234);
+}
+
+.tool {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tool button {
+    width: fit-content;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(186, 196, 249);
+}
