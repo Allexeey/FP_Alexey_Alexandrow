@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+
+<body>
+    <div class="container">
+        <div class="display">
+            <input class="input-0" id="screen" type="text" placeholder="0">
+        </div>
+
+        <div class="btns">
+            <div class="row">
+                <button id="c" onclick="backspc()">C</button>
+                <button class="btn">(</button>
+                <button class="btn">)</button>
+                <button id="ce" onclick="screen.value=''">CE</button>
+            </div>
+
+            <div class="row">
+                <button class="btn">7</button>
+                <button class="btn">8</button>
+                <button class="btn">9</button>
+                <button class="btn">÷</button>
+                <button class="btn">-</button>
+            </div>
+
+            <div class="row">
+                <button class="btn">4</button>
+                <button class="btn">5</button>
+                <button class="btn">6</button>
+                <button class="btn">+</button> 
+                <button class="btn">×</button>
+            </div>
+
+            <div class="row">
+                <button class="btn">1</button>
+                <button class="btn">2</button>
+                <button class="btn">3</button>
+                <button onclick="pow()">x <span>2</span> </button>
+                <button onclick="sqrt()">√</button>
+            </div>
+
+            <div class="row">
+                <button class="btn">0</button>
+                <button class="btn">.</button>
+                <button id="eval" onclick="screen.value=eval(screen.value)">=</button>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>  
+</html>
