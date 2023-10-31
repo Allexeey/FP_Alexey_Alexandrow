@@ -41,7 +41,7 @@ function backspc()
 
 let input = document.getElementById("screen");
 input.addEventListener("keyup", function(event) {
-    if (event.keyCode === 13) {
+    if (event.key === 13) {
         event.preventDefault();
         document.getElementById("eval").click();
     }
