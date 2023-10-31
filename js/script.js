@@ -1,11 +1,11 @@
 let userName = inputUserName();
-while (!userName || userName === "") {
+while (!userName) {
     alert('Введите корректное имя пользователя');
     userName = inputUserName();
 }
 
 let age = inputAge();
-while (!age || age === "" || isNaN(+age) || +age <= 0 || age > 100) {
+while (!age || isNaN(+age) || +age <= 0 || age > 100) {
     alert(`Введите корректный возраст`);
     age = inputAge();
 }
