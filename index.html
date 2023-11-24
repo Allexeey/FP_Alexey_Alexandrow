@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel website template</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <section class="main">
+        <div class="main__content content">
+            <header>
+                <div class="logo">
+                    <div class="logo__text-container">
+                        <svg alt="logo__text-img-white" class="logo__text-img-white"></svg>
+                    </div>
+                    <div class="logo__icon-container">
+                        <svg alt="logo__icon-img" class="logo__icon-img"></svg>
+                    </div>
+                </div>
+                <nav class="header__navmenu">
+                    <ul class="header__ul">
+                        <li class="header__list"><a href="#!" class="header__link">home</a></li>
+                        <li class="header__list"><a href="#!" class="header__link">hotels</a></li>
+                        <li class="header__list"><a href="#!" class="header__link">restaurants</a></li>
+                        <li class="header__list"><a href="#!" class="header__link">tours</a></li>
+                        <li class="header__list"><a href="#!" class="header__link">destinations</a></li>
+                        <li class="header__list"><a href="#!" class="header__link">activities</a></li>
+                        <li class="header__list"><a href="#!" class="header__link">contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header__user">
+                    <div class="user__data">
+                        <p class="header-user__title">Holla,</p>
+                        <p class="header-user__name">Ales Nesetril</p>
+                    </div>
+                    <div class="user__avatar">
+                        <div class="avatar__photo">
+                            <a href="#!" class="user-avatar__photo"><div class="user-avatar__circle circle"></div></a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="main__cta">
+                <span><h1>Discover the most engaging places</h1></span>
+                <form action="#!">
+                    <button action="#!" class="main__button glow-on-hover">
+                        <div class="main-button__icon"><svg alt="main icon"></svg></div>
+                        <p class="main-button__text">Discover on 3D Globe</p>
+                    </button>
+                </form>
+            </div>
+            <div class="main__row">
+                <div class="row__search-content">
+                    <form class="row-search__form">
+                        <div class="search-form__container search-form-container__location">
+                            <a href="#!"><svg alt="row-search__icon" class="row-search__icon icon-location"></svg></a>
+                            <div class="row-search__input-content">
+                                <label for="location">Location</label>
+                                <input type="text" class="row-search__input row-search__input-location" id="location" value="Explore nearby destinations">
+                            </div>
+                        </div>
+                        <div class="search-form__container search-form-container__activity">
+                            <a href="#!"><svg alt="row-search__icon" class="row-search__icon icon-activity"></svg></a>
+                            <div class="row-search__input-content">
+                                <label for="activity">Activity</label>
+                                <input type="text" class="row-search__input row-search__input-activity" id="activity" value="All Activities">
+                            </div>
+                        </div>
+                        <div class="search-form__container search-form-container__when">
+                            <a href="#!"><svg alt="row-search__icon" class="row-search__icon icon-when"></svg></a>
+                            <div class="row-search__input-content">
+                                <label for="when">When</label>
+                                <input type="text" class="row-search__input row-search__input-when" id="when" value="Choose a Date">
+                            </div>
+                        </div>
+                        <div class="search-form__container search-form-container__guest">
+                            <a href="#!"><svg alt="row-search__icon" class="row-search__icon icon-guest"></svg></a>
+                            <div class="row-search__input-content">
+                                <label for="guest">Guest</label>
+                                <input type="text" class="row-search__input row-search__input-guest" id="guest" value="1 guest">
+                            </div>
+                        </div>
+                        <div class="glow-on-hover">
+                            <button action="#!" class="row-search__button glow-on-hover">
+                                <svg alt="search-button__icon" class="row-search__icon search-button__icon"></svg>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="popular-destinations">
+        <div class="popular-destinations__content content">
+            <div class="popular-destinations__title flex-title">
+                <h2>Popular Destinations</h2>
+                <div class="button-hover">
+                    <button action="#!" class="button-view-all glow-on-hover-viewall">
+                        <p class="button-view-all__text">View all</p>
+                        <svg alt="arrow-svg" class="arrow-svg"></svg>
+                    </button>
+                </div>
+            </div>
+            <div class="popular-destinations__category">
+                <div class="popular-destinations__item">
+                    <div class="hover-image-scaleup"><a href="#!" class="popular-destinations-category__img big-sur"></a></div>
+                    <div class="popular-destinations-category__text">
+                        <a href="#!"><h4>Big Sur</h4></a>
+                        <a href="#!"><p>California, USA</p></a>
+                    </div>
+                </div>
+                <div class="popular-destinations__item">
+                    <div class="hover-image-scaleup"><a href="#!" class="popular-destinations-category__img prescott"></a></div>
+                    <div class="popular-destinations-category__text">
+                        <a href="#!"><h4>Prescott</h4></a>
+                        <a href="#!"><p>Arizona, USA</p></a>
+                    </div>
+                </div>
+                <div class="popular-destinations__item">
+                    <div class="hover-image-scaleup"><a href="#!" class="popular-destinations-category__img fort-mayers"></a></div>
+                    <div class="popular-destinations-category__text">
+                        <a href="#!"><h4>Fort Mayers</h4></a>
+                        <a href="#!"><p>Florida, USA</p></a>
+                    </div>
+                </div>
+                <div class="popular-destinations__item">
+                    <div class="hover-image-scaleup"><a href="#!" class="popular-destinations-category__img tucson"></a></div>
+                    <div class="popular-destinations-category__text">
+                        <a href="#!"><h4>Tucson</h4></a>
+                        <a href="#!"><p>Arizona, USA</p></a>
+                    </div>
+                </div>
+                <div class="popular-destinations__item">
+                    <div class="hover-image-scaleup"><a href="#!" class="popular-destinations-category__img st-joseph"></a></div>
+                    <div class="popular-destinations-category__text">
+                        <a href="#!"><h4>St. Joseph</h4></a>
+                        <a href="#!"><p>Michigan, USA</p></a>
+                    </div>
+                </div>
+                <div class="popular-destinations__item">
+                    <div class="hover-image-scaleup"><a href="#!" class="popular-destinations-category__img madrid"></a></div>
+                    <div class="popular-destinations-category__text">
+                        <a href="#!"><h4>Madrid</h4></a>
+                        <a href="#!"><p>Spain</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hotels-and-restaurants">
+        <div class="content">
+            <div class="hotels-and-restaurants__title flex-title">
+                <h2>Hotels and Restaurants</h2>
+                <div class="button-hover">
+                    <button action="#!" class="button-view-all glow-on-hover-viewall">
+                        <p class="button-view-all__text">View all</p>
+                        <svg alt="arrow-svg" class="arrow-svg"></svg>
+                    </button>
+                </div>
+            </div>
+            <div class="hotels-and-restaurants__category">
+                <div class="hotels-and-restaurants__item">
+                    <div class="hover-image-scaleup"><a href="#!" class="hotels-and-restaurants-category__img monastero"></a></div>
+                    <div class="hotels-and-restaurants-category__text">
+                        <a href="#!"><h4>Monastero Santa Rosa Hotel & Spa</h4></a>
+                        <div class="hotels-and-restaurants-category-text__flex-block">
+                            <div class="category-text__map">
+                                <a href="#!" class="map-svg"></a>
+                                <a href="#!"><p>Salerno, Italy</p></a>
+                            </div>
+                            <div class="rating-hotels-and-restaurants">
+                                <svg class="rating-active"></svg>
+                                <svg class="rating-active"></svg>
+                                <svg class="rating-active"></svg>
+                                <svg class="rating-active"></svg>
+                                <svg class="rating-active"></svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hotels-and-restaurants__item">
+                    <div class="hover-image-scaleup"><a href="#!" class="hotels-and-restaurants-category__img tremezzo"></a></div>
+                    <div class="hotels-and-restaurants-category__text">
+                        <a href="#!"><h4>Grand Hotel Tremezzo</h4></a>
+                        <div class="hotels-and-restaurants-category-text__flex-block">
+                            <div class="category-text__map">
+                                <a href="#!" class="map-svg"></a>
+                                <a href="#!"><p>Lake Como, Italy</p></a>
+                            </div>
+                            <div class="rating-hotels-and-restaurants">
+                                <svg class="rating-active"></svg>
+                                <svg class="rating-active"></svg>
+                                <svg class="rating-notactive"></svg>
+                                <svg class="rating-notactive"></svg>
+                                <svg class="rating-notactive"></svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hotels-and-restaurants__item">
+                    <div class="hover-image-scaleup"><a href="#!" class="hotels-and-restaurants-category__img oberoi"></a></div>
+                    <div class="hotels-and-restaurants-category__text">
+                        <a href="#!"><h4>The Oberoi Udaivilas, Udaipur</h4></a>
+                        <div class="hotels-and-restaurants-category-text__flex-block">
+                            <div class="category-text__map">
+                                <a href="#!" class="map-svg"></a>
+                                <a href="#!"><p>Udaipur, India</p></a>
+                            </div>
+                            <div class="rating-hotels-and-restaurants">
+                                <svg class="rating-active"></svg>
+                                <svg class="rating-active"></svg>
+                                <svg class="rating-active"></svg>
+                                <svg class="rating-active"></svg>
+                                <svg class="rating-notactive"></svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hotels-and-restaurants__item">
+                    <div class="hover-image-scaleup"><a href="#!" class="hotels-and-restaurants-category__img beverly"></a></div>
+                    <div class="hotels-and-restaurants-category__text">
+                        <a href="#!"><h4>AKA Beverly Hills</h4></a>
+                        <div class="hotels-and-restaurants-category-text__flex-block">
+                            <div class="category-text__map">
+                                <a href="#!" class="map-svg"></a>
+                                <a href="#!"><p>Los Angeles, United States</p></a>
+                            </div>
+                            <div class="rating-hotels-and-restaurants">
+                                <svg class="rating-active"></svg>
+                                <svg class="rating-active"></svg>
+                                <svg class="rating-active"></svg>
+                                <svg class="rating-notactive"></svg>
+                                <svg class="rating-notactive"></svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="travel-tips-and-advice">
+        <div class="content">
+            <div class="travel-tips-and-advice__title flex-title">
+                <h2>Travel Tips and Advice</h2>
+                <div class="button-hover">
+                    <button action="#!" class="button-view-all glow-on-hover-viewall">
+                        <p class="button-view-all__text">View all</p>
+                        <svg alt="arrow-svg" class="arrow-svg"></svg>
+                    </button>
+                </div>
+            </div>
+            <div class="travel-tips-and-advice__category">
+                <div class="travel-tips-and-advice__item">
+                    <div class="hover-image-scaleup"><a href="#!" class="travel-tips-and-advice-item__img ice-cream"></a></div>
+                    <div class="travel-tips-and-advice-item__text">
+                        <h3>East Village Ice Cream Crawl</h3>
+                        <p>We will stop at five different world-class ice cream shops on this 1.5 mile 1.5 hour tour. At each ice cream store we'll explore the story behind the business and see what makes the ice cream unique as you savor every…</p>
+                        <div class="travel-tips-and-advice-item__info">
+                            <div class="travel-tips-and-advice-item-info__container">
+                                <svg class="travel__icon travel__icon-date"></svg>
+                                <p>Today</p>
+                            </div>
+                            <div class="travel-tips-and-advice-item-info__container">
+                                <svg class="travel__icon travel__icon-user"></svg>
+                                <p>Maria Philips</p>
+                            </div>
+                            <div class="travel-tips-and-advice-item-info__container">
+                                <a href="#!" class="travel__icon travel__icon-comments"></a>
+                                <p>2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="travel-tips-and-advice__item">
+                    <div class="hover-image-scaleup"><a href="#!" class="travel-tips-and-advice-item__img brooklyn"></a></div>
+                    <div class="travel-tips-and-advice-item__text">
+                        <h3>Brooklyn Bridge cinematic photo walk</h3>
+                        <p>This experience takes place at the Brooklyn Bridge Park and Brooklyn Bridge, but I’m always open to capture clients at different locations upon request for an additional charge.</p>
+                        <div class="travel-tips-and-advice-item__info">
+                            <div class="travel-tips-and-advice-item-info__container">
+                                <svg class="travel__icon travel__icon-date"></svg>
+                                <p>Today</p>
+                            </div>
+                            <div class="travel-tips-and-advice-item-info__container">
+                                <svg class="travel__icon travel__icon-user"></svg>
+                                <p>James Calzoni</p>
+                            </div>
+                            <div class="travel-tips-and-advice-item-info__container">
+                                <a href="#!" class="travel__icon travel__icon-comments"></a>
+                                <p>17</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="activities">
+        <div class="content">
+            <div class="activities__title flex-title">
+                <h2>Activities</h2>
+                <div class="button-hover">
+                    <button action="#!" class="button-view-all glow-on-hover-viewall">
+                        <p class="button-view-all__text">View all</p>
+                        <svg alt="arrow-svg" class="arrow-svg"></svg>
+                    </button>
+                </div>
+            </div>
+            <div class="activities__category">
+                <div class="activities__item">
+                    <div class="hover-image-scaleup"><a href="#!" class="activities-item__img sailing"></a></div>
+                    <h4>Sailing</h4>
+                </div>
+                <div class="activities__item">
+                    <div class="hover-image-scaleup"><a href="#!" class="activities-item__img climbing"></a></div>
+                    <h4>Climbing</h4>
+                </div>
+                <div class="activities__item">
+                    <div class="hover-image-scaleup"><a href="#!" class="activities-item__img skiing"></a></div>
+                    <h4>Skiing</h4>
+                </div>
+                <div class="activities__item">
+                    <div class="hover-image-scaleup"><a href="#!" class="activities-item__img hiking"></a></div>
+                    <h4>Hiking</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-us">
+        <div class="about-us__content content">
+            <div class="about-us__category">
+                <div class="about-us__column">
+                    <h2>About Us</h2>
+                    <p class="about-us-column__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a sapien justo. Nulla facilisis tristique imperdiet. Nullam a placerat odio. Sed in ex augue. Aliquam porta consectetur lorem sit amet ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                    <button action="#!" class="button-view-all glow-on-hover-viewall">
+                        <p class="button-view-all__text">Read more</p>
+                        <svg alt="arrow-svg" class="arrow-svg"></svg>
+                    </button>
+                </div>
+                <div class="about-us__column">
+                    <img class="about-us-category__img"></img>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer__content content">
+            <div class="footer__category">
+                <div class="footer__column-logo">
+                    <div class="foooter-column__row-logo">
+                        <div class="logo">
+                            <div class="logo__text-container">
+                                <svg alt="logo__text-img-black" class="logo__text-img-black"></svg>
+                            </div>
+                            <div class="logo__icon-container">
+                                <svg alt="logo__icon-img" class="logo__icon-img"></svg>
+                            </div>
+                        </div>
+                        <p>We always make our customers happy by providing as many choises as possible</p>
+                    </div>
+                    <div class="foooter-column__row-socials">
+                        <a href="#!" class="socials__icon icon-facebook"></a>
+                        <a href="#!" class="socials__icon icon-twitter"></a>
+                        <a href="#!" class="socials__icon icon-instagram"></a>
+                    </div>
+                </div>
+                <div class="footer__column-company">
+                    <div class="footer-column__contact">
+                        <h5>About</h5>
+                        <ul class="footer__ul">
+                            <li class="footer__list"><a href="#!" class="footer__link">About Us</a></li>
+                            <li class="footer__list"><a href="#!" class="footer__link">Features</a></li>
+                            <li class="footer__list"><a href="#!" class="footer__link">News</a></li>
+                            <li class="footer__list"><a href="#!" class="footer__link">Menu</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column__contact">
+                        <h5>Company</h5>
+                        <ul class="footer__ul">
+                            <li class="footer__list"><a href="#!" class="footer__link">Why 2rism</a></li>
+                            <li class="footer__list"><a href="#!" class="footer__link">Partner With Us</a></li>
+                            <li class="footer__list"><a href="#!" class="footer__link">FAQ</a></li>
+                            <li class="footer__list"><a href="#!" class="footer__link">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column__contact">
+                        <h5>Support</h5>
+                        <ul class="footer__ul">
+                            <li class="footer__list"><a href="#!" class="footer__link">Account</a></li>
+                            <li class="footer__list"><a href="#!" class="footer__link">Support Center</a></li>
+                            <li class="footer__list"><a href="#!" class="footer__link">Feedback</a></li>
+                            <li class="footer__list"><a href="#!" class="footer__link">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__column-company">
+                    <div class="footer-column__contact">
+                        <h5>Subscribe on our destination review newsletters</h5>
+                        <div class="row-search__form">
+                            <div class="search-form__container">
+                                <svg alt="row-search__icon" class="row-search__icon icon-email"></svg>
+                                <div class="row-search__input-content">
+                                    <label for="activity">Your Email</label>
+                                    <input type="text" class="row-search__input row-search__input-email" id="your-email" value="johndoe@gmail.com">
+                                </div>
+                            </div>
+                            <div class="glow-on-hover">
+                                <button class="row-search__button glow-on-hover" id="openModal">
+                                    <svg alt="search-button__icon" class="row-search__icon search-button__icon"></svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div id="myModal" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <section class="form">
+                                    <h1 class="head__form">CONTACT US</h1>
+                                    <form class="form__box" action="#" name="contactForm" id="contactForm">
+                                        <div class="left__form">
+                                            <div class="input-box">
+                                                <label class="required-label" for="firstName">First name</label> <br>
+                                                <input class="input__form" type="text" pattern="^[A-Z][a-z]*$"
+                                                    id="firstName" name="firstName" required />
+                                            </div>
+                                            <div class="input-box">
+                                                <label class="required-label" for="lastName">Last name</label> <br>
+                                                <input class="input__form" type="text" pattern="^[A-Z][a-z]*$" id="lastName"
+                                                    name="lastName" required />
+                                            </div>
+                                            <div class="input-box">
+                                                <label class="required-label" for="email">E-mail:</label> <br>
+                                                <input class="input__form" type="email" placeholder="example@example.com"
+                                                    name="email" id="email" required />
+                                            </div>
+                                            <div class="input-box">
+                                                <label for="phone">Phone number</label> <br>
+                                                <input class="input__form" class="phone__input" type="text"
+                                                    pattern="\+[0-9]\(\d{3}\)\d{2}-\d{2}-\d{3}"
+                                                    placeholder="+X(XXX)XX-XX-XXX" name="phone" id="phone" />
+                                            </div>
+                                        </div>
+                                        <div class="right__form">
+                                            <div class="input-box message-box">
+                                                <label class="required-label" for="message">Message</label><br>
+                                                <textarea id="message" name="message" required></textarea><br>
+                                            </div>
+                                            <div class="button">
+                                                <button class="input__form form__send glow-on-hover" type="submit" id="button" />SEND
+                                            </div>
+                                        </div>
+                                    </form>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="js/script.js"></script>
+</body>
+</html>
