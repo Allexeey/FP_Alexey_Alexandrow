@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Classes and Tables lab-5</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="classes.js"></script>
+    <script src="script.js"></script>
+    <script src="service.js"></script>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <div class="tables">
+            <table>
+                <caption>Гости</caption>
+                <thead>
+                    <tr>
+                        <th>Имя</th>
+                        <th>Фамилия</th>
+                        <th>Возраст</th>
+                    </tr>
+                </thead>
+                <tbody id="guest"></tbody>
+            </table>
+            <table>
+                <caption>Инструкторы</caption>
+                <thead>
+                    <tr>
+                        <th>Имя</th>
+                        <th>Фамилия</th>
+                        <th>Профиль</th>
+                        <th>Стаж</th>
+                    </tr>
+                </thead>
+                <tbody id="teacher"></tbody>
+            </table>
+            <table>
+                <caption>Снаряжение</caption>
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Количество</th>
+                    </tr>
+                </thead>
+                <tbody id="equipment"></tbody>
+            </table>
+            <table>
+                <caption>Активности</caption>
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Оценка</th>
+                    </tr>
+                </thead>
+                <tbody id="activities"></tbody>
+            </table>
+        </div>
+        <div class="tool">
+            <button id="restore">Восстановить данные</button>
+            <br>
+            <button id="removemeGuest">Удалить гостя</button>
+            <br>
+            <button id="addGuest">Добавить гостя</button>
+            <br>
+            <button id="updateGuest">Изменить гостя</button>
+            <br>
+            <button id="removemeActivities">Удалить активности</button>
+            <br>
+            <button id="removeTeacher">Удалить инструктора</button>
+            <br>
+            <button id="removeEquipment">Удалить снаряжение</button>
+        </div>
+    </div>
+</body>
+
+</html>
