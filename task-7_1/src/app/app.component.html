@@ -1,0 +1,25 @@
+<main>
+  <div class="tool">
+    <h1>Прогноз погоды</h1>
+    <div class="label-city"><label for="input-city">Введите ваш город</label></div>
+    <input id="input-city" [(ngModel)]="city" placeholder="Город">
+    <div><button class="button-block" (click)="onStart()">Искать прогноз</button></div>
+  </div>
+
+  <div class="message-block" *ngIf="isCityInfoLoading"> Загружаем информацию о городе </div>
+  <div class="message-block" *ngIf="isCityWeatherLoading"> Загружаем информацию о погоде </div>
+  <div class="message-block" *ngIf="isWeatherImageLoading"> Загружаем картинку для погоды </div>
+  <div class="message-block message-error" *ngIf="errorMsg"> {{errorMsg}}</div>
+
+  <div class="weather-block" *ngIf="weather">
+      <span class="span-title"> Прогноз погоды на сегодня</span>
+      <span> Погода: {{weather.description}}</span>
+      <span> Температура: {{weather.temp}} °C</span>
+      <span> Ощущается как: {{weather.feelsLike}} °C</span>
+      <span> Влажность: {{weather.humidity}} %</span>
+      <span> Скорость ветра: {{weather.windSpeed}} м/с</span>
+      <span> Направление ветра: {{weather.windDeg}} °</span>
+  </div>
+
+  <div class="weather-image"><img *ngIf="weatherImage" [src]="weatherImage" alt="Weather image"></div>
+</main>
