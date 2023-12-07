@@ -1,0 +1,148 @@
+main {
+  width: 1fr;
+  margin: 0px auto 25px;
+}
+
+a, p, h1, h2, h3, h4, h5, label, input, button, span, div {
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+  color: white;
+}
+
+h1 {
+  margin: 0px auto 0;
+  padding: 20px 25px;
+  font-size: 25px;
+  font-weight: 800;
+  background: #b8a551;
+  border-radius: 7px;
+  box-shadow: 0 7px 0px #968938;
+  transition: all 0.7s;
+  top: 0;
+  &:hover {
+    box-shadow: 0 2px 0px #968938;
+    transition: all 0.7s;
+  }
+}
+
+.label-city {
+  margin: 25px auto 25px;
+  padding: 10px;
+  width: fit-content;
+  background: #b8a551;
+  border-radius: 7px;
+  box-shadow: 0 7px 0px #968938;
+  transition: all 0.6s;
+  position: relative;
+  top: 0;
+  &:hover {
+    box-shadow: 0 2px 0px #968938;
+    transition: all 0.6s;
+  }
+}
+
+label {
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 7px;
+  display: inline-block;
+  color: white;
+}
+
+input {
+  margin: auto auto 25px;
+  padding: 20px 25px;
+  font-size: 20px;
+  background: #b8a551;
+  border-radius: 7px;
+  box-shadow: 0 7px 0px #968938;
+  display: inline-block;
+  transition: all 0.8s;
+  position: relative;
+  top: 0;
+  &:hover {
+    box-shadow: 0 2px 0px #968938;
+    transition: all 1.2s;
+  }
+  &:focus {
+    box-shadow: 0 2px 0px #968938;
+    transition: all 0.8s;
+  }
+}
+
+.button-block {
+  padding: 20px 25px;
+  font-size: 20px;
+  font-weight: 600;
+  background: #51a3b8;
+  border-radius: 7px;
+  box-shadow: 0 7px 0px #387796;
+  display: inline-block;
+  transition: all 0.2s;
+  position: relative;
+  top: 0;
+  cursor: pointer;
+  margin: 0px auto 7px;
+  &:hover {
+    bottom: 3px;
+    box-shadow: 0 2px 0px #387796;
+    transition: all 0.8s;
+  }
+  &:active {
+    top: 3px;
+    box-shadow: 0 2px 0px #387796;
+    transition: all 0.2s;
+  }
+}
+
+.tool {
+  text-align: center;
+}
+
+.message-block {
+  text-align: center;
+  margin: 25px auto 25px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.message-error {
+  color: red;
+}
+
+.span-title{
+  font-size: 22px;
+  font-weight: 600;
+  color: #369db7;
+}
+
+span {
+  margin: 25px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+
+.weather-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.weather-image {
+  text-align: center;
+  img {
+    border-radius: 14px;
+    transition: 1s;
+    display: inline-block;
+    overflow: hidden;
+    &:hover {
+      transform: scale(0.98);
+    }
+  }
+}
