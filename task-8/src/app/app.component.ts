@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-// Ошибка 1
-var map: Map<string, any> = new Map<string, any>();
+const map: Map<string, any> = new Map<string, any>();
 
 @Component({
   selector: 'app-root',
@@ -9,19 +8,6 @@ var map: Map<string, any> = new Map<string, any>();
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-
-  // Ошибка 2
-  constructor() { } // declaring a to 1
-
-  // Ошибка 3
-  private var1() { } // declaring a to 1
-
-  // Ошибка 4
-  private var2() { } // declaring a to 1
-
-  // Ошибка 5
-  private var3() { } // declaring a to 1
-
 
   @Inject('mapKey1')
   private mapKey1?: IMyClass;
@@ -83,7 +69,6 @@ export class Class3 implements IMyClass {
     console.log('');
   }
 }
-
 
 function Inject(key: string) {
   return function (target: any, propertyKey: string) {
